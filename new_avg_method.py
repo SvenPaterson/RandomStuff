@@ -5,7 +5,8 @@ from datetime import datetime
 # discussion with Eric at work, can you compute the average of a list of numbers
 # forever without storing the list of numbers? 
 # Answer below is yes, but the calculation is limited by how big n can get
-# give memory and calculation limitations
+# given memory and calculation limitations. unsigned long will let you calculate
+# average for 250million years at a sample rate of 1 second.
 
 def random_num():
     return round(random.randint(1,100)/random.randint(1,10), 2)
